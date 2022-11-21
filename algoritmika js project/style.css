@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto';
+}
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96vh;
+}
+.main-container {
+    width: 40%;
+    border: 1px solid #C4C4C4;
+    border-radius: 11px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.top-yellow {
+    width: 100%;
+    height: 28px;
+    background-color: #c192fe;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 10px;
+}
+.main-text {
+    margin: 10px 0px;
+    font-weight: 900;
+    font-size: 26px;
+}
+.alt-cont {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: right;
+}
+.sort {
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}
+.method1:hover {
+    content: url('files/asc-hover.svg');
+}
+.method2:hover {
+    content: url('files/desc-hover.svg');
+}
+.remove:hover {
+    content: url('files/remove-hover.svg');
+}
+.handle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.vivod {
+    font-size: 18px;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.inp {
+    border: 1px solid #C4C4C4;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.add {
+    width: 150px;
+    height: 42px;
+    font-size: 14px;
+    color: white;
+    background-color: #833AE0;
+    border: none;
+    border-radius: 71px;
+}
+.add:hover {
+    background-color: #c192fe;
+    color: rgb(0, 0, 0);
+}
+.list {
+    margin: 0;
+    padding: 0px 0px 0px 15px;
+    text-align: left;
+    list-style-type: none;
+}
+.list li {
+    margin: 0;
+    padding: 10px 0px;
+}
+.elem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
